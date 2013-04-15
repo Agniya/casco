@@ -1,0 +1,278 @@
+body{
+	font: normal small Arial, Helvetica, sans-serif;
+	color: #636D78;
+	text-align:justify;
+	font-size:13px;
+	margin-top:0px;
+	margin-left:100px;
+	margin-right:0px;
+	margin-bottom:0px;
+	background-color:#272C32;
+	
+}
+
+#border
+{
+	width:900px;
+	float:left;
+}
+
+#left10
+{
+	width:587px;
+	height:260px;
+	float:left;
+	background-image: url(/images/cars.jpg);
+	background-position:right; 
+	background-repeat: no-repeat; 
+}
+
+.name
+{
+	color:#C2C8D0;
+	padding-top:30px;
+	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	text-transform:uppercase;
+	font-size:32px;
+}
+
+#contacts{
+	position: relative;
+	z-index: 1000;
+	margin: 0 auto;
+	color:#C2C8D0;
+	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+	font-size:1.6em;
+}
+
+.tag
+{
+	color:#ffffff;
+	padding-left:4px;
+	padding-top:4px;
+}
+
+#links-bg
+{
+	width:305px;
+	height:239px;
+	float:left;
+	background-color:#585F65;
+	padding: 20px 5px 1px 1px;
+}
+
+.toplinks,.quicklinks
+{
+	color:#ffffff;
+	width:240px;
+	height:55px;
+	text-transform:uppercase;
+	font-size: 1em;
+	font-variant: smallcaps;
+	padding-left:10px;
+	font-family: "Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;;
+}
+
+.toplinks a, .quicklinks a
+{
+	color:#ffffff;
+	text-align:justify;
+	display:block;
+	height:55px;
+	text-decoration:none;
+}
+
+.toplinks a, .quicklinks a:hover
+{
+	color:#C2C8D0;
+	background-image:url(images/on.jpg); background-repeat:no-repeat;
+}
+a{
+	color:#C2C8D0;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#C2C8D0;
+	text-decoration:none;
+}
+
+.quicklinks{
+	width: 300px;
+	margin: 10px 0px 0px;
+}
+
+.headingbg2
+{
+	background-color:#50c878;
+	height:5px;
+	font-size:1px;
+}
+
+.quick_heading
+{
+	line-height:40px;
+	background-color:#50c878;
+	width:309px;
+	font-size:18px;
+	color:#ffffff;
+	padding-left:10px;
+	height:40px;
+	margin-left: 10px;
+}
+
+#why_you_need_help{
+	line-height:40px;
+	background-color:#50c878;
+	width:550px;
+	font-size:18px;
+	color:#ffffff;
+	padding-left:10px;
+	height:40px;
+}
+
+#main
+{	
+	font-size:1.2em;
+	color:#C2C8D0;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+#form, #userData{
+	font-size:1em;
+	color:#C2C8D0;
+}
+
+#mainTable {	
+	font-size:1em;
+	color:#ffffff;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:20px;
+	text-align: justify;	
+}
+
+#mainTable td {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#letSent, .connect{
+	font-size:1em;
+	color:#50c878;
+	padding-right: 20px;
+}
+
+#rightTable {	
+	font-size:1.2em;
+	color:#ffffff;
+	padding-top:30px;
+	padding-bottom:30px;	
+	text-align: justify;
+	width:320px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+#rightTable td {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#us {	
+	font-size:1.2em;
+	color:#C2C8D0;
+	padding-top:10px;
+	padding-bottom:10px;	
+	text-align: justify;
+	width:320px;
+	line-height: 1.5;
+}
+
+#us td {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#left, #left2
+{
+	width:571px;
+	float:left;
+}
+
+#left2 .connect, #leaveComm
+{
+	font-size:1.2em;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#leaveComm, #data
+{
+	width:309px;
+	padding-left: 5px;
+	color: #50c878;
+	margin-bottom: 10px;
+}
+
+#right, #right2
+{
+	font-size:1em;
+	width:309px;
+	float:left;	
+}
+
+textarea{
+	background-color: #50c878;
+	box-shadow: 1px 2px 3px black;
+}
+
+em{
+	font-size: 14px;
+}
+
+.clear{
+	clear: both;
+}
+		
+#headingbg
+{
+	background-color:#1A1D22;
+	height:40px;
+	line-height:40px;
+	clear:both;
+	color:#7F8A97;
+	font-family:arial;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-left:15px;
+}
+
+#bottom
+{
+	width:900px;
+	line-height:40px;
+	background-color:#1A1D22;
+	float:left;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#shield{
+	margin-left: 35px;
+}
+
+#userData{
+	border: 1px solid black;
+}
+
+.error input, .error textarea {
+  border: 1px solid red;
+}
+.error, #msg  {
+  color: red;
+}
+
+
